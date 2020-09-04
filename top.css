@@ -120,7 +120,7 @@ color:  rgba(204, 204, 204, 0.548);
     text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
     color: #fff;
     letter-spacing: 0.8rem;
-    opacity: 0.85;
+    opacity: 0.8;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -128,7 +128,7 @@ color:  rgba(204, 204, 204, 0.548);
     color: #fff;
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
-    opacity: 0.85;
+    opacity: 0.8;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
 }
 
@@ -143,18 +143,20 @@ color:  rgba(204, 204, 204, 0.548);
 }
 
 .pf-title {
+    color: #fff;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
-    opacity: 0.85;
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.4rem;
 }
 
 .pf-title h1 {
     margin: 0;
     padding-top: 30px;
+    border-bottom: solid 2px;
+    display: inline-block;
 }
 
 .contact {
@@ -166,15 +168,20 @@ color:  rgba(204, 204, 204, 0.548);
     text-align: center;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
-    opacity: 0.7;
 }
 
 .contactform-item {
+    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+    /* -webkit- transform: translateY(-50%) translateX(-50%); */
+}
+
+.contactform-item h1 {
+    display: inline-block;
+    border-bottom: solid 2px;
 }
 
 .input, textarea {
@@ -191,9 +198,34 @@ color:  rgba(204, 204, 204, 0.548);
 }
 
 .submit_btn input {
-    background-color: rgba(177, 177, 177, 0.774);
+    background-color: #fff;
     border: solid 2px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 16px;
+}
+
+.profile {
+    position: relative;
+    display: none;
+    height: 790px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.profile-list {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    /* -webkit- transform: translateY(-50%) translateX(-50%); */
+}
+
+.profile-list h1 {
+    display: inline-block;
+    border-bottom: solid 2px;
 }
