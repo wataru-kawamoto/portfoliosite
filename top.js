@@ -44,13 +44,17 @@ $(function() {
 });
 
 $(function() {
-    $('.top').bgswitcher({
-        images:["image/jr-korpa-kQwS0t_EDqQ-unsplash-min.jpg", "image/solen-feyissa-Kp1tkDWFvMI-unsplash-min.jpg","image/greg-rosenke-syZhH19b1Z8-unsplash-min.jpg"],
-        loop: true,
-        interval: 5000,
-        effect: "fade",
-    });
+    if (window.matchMedia( "(min-width: 1000px)" ).matches) {
+        /* ウィンドウサイズが 1000px以上の場合のコードをここに */
+        $('.top').bgswitcher({
+            images:["image/jr-korpa-kQwS0t_EDqQ-unsplash-min.jpg", "image/solen-feyissa-Kp1tkDWFvMI-unsplash-min.jpg","image/greg-rosenke-syZhH19b1Z8-unsplash-min.jpg"],
+            loop: true,
+            interval: 5000,
+            effect: "fade",
+        });
+        }
 });
+
 
 // $(function() {
 //     if($('.nav_menu_li_2','nav_menu_li_3','nav_menu_li_4').on('click')) {
