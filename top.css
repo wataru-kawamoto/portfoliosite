@@ -205,7 +205,7 @@ color:  rgba(204, 204, 204, 0.548);
 
 .top-content {
     background: url(image/solen-feyissa-Kp1tkDWFvMI-unsplash-min.jpg) no-repeat 0 0;
-    background-size: 100%;
+    background-size: 100% 100%;
     /* heightは画像サイズによって変更*/
     height: 790px;
 }
@@ -240,8 +240,8 @@ color:  rgba(204, 204, 204, 0.548);
     }
 
     .top-content {
-        background: url(image/solen-feyissa-Kp1tkDWFvMI-unsplash-minのコピー.jpg);
-        background-size: 100%;
+        background: url(image/solen-feyissa-Kp1tkDWFvMI-unsplash-minのコピー.jpg) no-repeat 0 0;
+        background-size: 100% 100%;
         /* heightは画像サイズによって変更*/
         height: 830px;
     }
