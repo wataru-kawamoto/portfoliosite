@@ -272,6 +272,7 @@ color:  rgba(204, 204, 204, 0.548);
 
 .portfolio {
     display: none;
+    background-repeat: inherit;
     height: 790px;
 }
 
@@ -290,6 +291,24 @@ color:  rgba(204, 204, 204, 0.548);
     padding-top: 30px;
     border-bottom: solid 2px;
     display: inline-block;
+}
+
+.pf-list  {
+    margin: 0 40px;
+}
+
+.pf-list p {
+    color: #fff;
+}
+
+.pf-list img {
+    width: 300px;
+    height: auto;
+}
+
+.pf {
+    float: left;
+    margin: 10px 40px;
 }
 
 @media (max-width: 1000px) {
